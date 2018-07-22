@@ -16,4 +16,5 @@ if __name__ == '__main__':
         p = multiprocessing.Process(target=start_client)
         jobs.append(p)
         p.start()
+        print("debug")
     # TODO: randomly kill
